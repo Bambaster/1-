@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIWebViewDelegate>
+
+@property (nonatomic, strong) NSString * url;
+@property (nonatomic, strong) NSString * labelNavText;
 
 
 @end
